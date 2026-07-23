@@ -1,5 +1,5 @@
 // CSC156 - Java Computer Science 1
-// Members: Juan Figueroa, Myat Min Htoo, Nicholas Korsak
+// Members: Juan Figueroa, Myat Min Htoo, Nicholas Korsak, Robina Anser
 
 // This class represents a single student.
 // Each student has a name, student ID, and an array of grades.
@@ -112,6 +112,11 @@ public class Student {
             return "F";
         }
     }
+
+    // Robina: allows updating the student's grades
+       public void setGrades(double[] newGrades) {
+        this.grades = newGrades;
+   }
 
     // Display GPA grade point from the alphabetical GPA
     public double getGPA() {
